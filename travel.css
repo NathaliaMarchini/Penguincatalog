@@ -1,0 +1,105 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden; 
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #DEE6E8;
+}
+
+.titulo{
+    margin-top: 2%;
+    width: 70vw;
+    height: 90vh;
+    border-radius: 30px;
+    border: 1px solid #0B3A40;
+}
+
+.legenda{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 100%;
+    height: 30%;
+    background-color: #002754;
+    display: flex;
+    position: relative;
+    background-image: url(image/ice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opcoes{
+    width: 100%;
+    height: 70%;
+    background-color: #DEE6E8;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+}
+
+.L{
+    margin-top: 12vh;
+    text-align: center;
+    width: 68vw;
+    height: 9vh;
+   
+}
+
+.L h1{
+    font-size: 4vh;
+    color: rgb(81, 104, 109);
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container{
+    margin-top: 6vh;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(60, 92, 92, 0.57);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container h1{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    margin-top: 2vh;
+    color:  rgb(34, 52, 56);
+}
+
+#T{
+    margin-top: 6vh;
+}
+
+.botao{
+    width: 7vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    margin-top: 3vh;
+    background-color: rgba(3, 120, 166, 0.42);
+    color: white;
+    font-size: 3vh;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.botao:hover{
+    background-color: white;
+    border: 1px solid rgba(3, 120, 166, 0.42);
+    color: rgba(3, 120, 166, 0.42);
+    font-weight: 500;
+}

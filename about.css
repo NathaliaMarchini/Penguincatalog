@@ -1,0 +1,66 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.page{
+    width: 100%;
+    height: 145vh;
+    background-color: RED;
+    display: flex;
+    background-image: url(image/pinguim-colony.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 70vw;
+    height: 130vh;
+    background-color: antiquewhite;
+    margin-top: 8vh;
+    border-radius: 30px;
+    background-color: rgba(60, 92, 92, 0.80);
+    text-align: center;
+}
+
+.texto{
+    width: 56vw;
+    height: 110vh;
+    margin-top: 9vh;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.texto p{
+    line-height: 1.3;
+    margin-top: 11vh;
+    font-size: 3vh;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #123949;
+}
+
+.botao{
+    width: 7vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    margin-top: 3vh;
+    background-color: rgba(3, 120, 166, 0.42);
+    color: white;
+    font-size: 3vh;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.botao:hover{
+    background-color: white;
+    border: 1px solid rgba(3, 120, 166, 0.42);
+    color: rgba(3, 120, 166, 0.42);
+    font-weight: 600;
+}
+

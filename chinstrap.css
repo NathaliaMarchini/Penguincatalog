@@ -1,0 +1,172 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: #DEE6E8;
+    overflow-x: hidden;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+
+/* --------------------------- */
+
+
+.divUm img {
+    margin-top: 4vh;
+    margin-left: 5vh;
+}
+
+/* --------------------------- */
+
+
+/* --------------------------- */
+.divDois {
+    text-align: center;
+}
+
+.divDois h1 {
+    font-size: 4vh;
+    font-family: "Italiana", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    margin-top: 7vh;
+}
+
+.divDois a {
+    text-decoration: none;
+}
+
+.divDois h1:hover{
+    transform: scale(1.2);
+    color: #3C5C5C;
+}
+
+.divDois h1{
+    transition: transform 0.08s ease-in-out;
+}
+
+.divTres h1{
+    transition: transform 0.08s ease-in-out;
+}
+
+.divTres h1:hover{
+    transform: scale(1.2);
+    color: #3C5C5C;
+}
+
+/* --------------------------- */
+
+
+/* --------------------------- */
+
+.divTres h1 {
+    font-size: 4vh;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    margin-top: 7vh;
+    margin-left: 55%;
+}
+
+.divTres a {
+    text-decoration: none;
+
+}
+
+/* -------------------------- */
+
+
+
+#box {
+    flex: 1;
+}
+
+.ChinstrapPhoto{
+    width: 100%;
+    height: 80vh;
+    background-color: red;
+}
+    
+.fotinha {
+    width: 100%;
+    height: 80vh;
+    background-image: url(image/chinstrapFotinha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.etiquetaS {
+    display: flex;
+    width: 100%;
+    height: 38vh;
+    position: relative;
+    text-align: center;
+}
+
+.etiqueta {
+    margin-top: 6%;
+    width: 30vw;
+    height: 14vh;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #607D8B;
+}
+
+.etiqueta h1 {
+    margin-top: 4vh;
+    font-size: 4vh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 100;
+}
+
+.line-horizontal {
+    border-top: 3px solid white;
+    /* Define a linha horizontal */
+    margin: 10px 0;
+    /* Define a margem para espaçamento */
+    text-align: center;
+}
+
+
+.line-horizontal h1 {
+    color: #5A7E8C;
+    font-family: "Andika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #5A7E8C;
+}
+
+#I {
+    margin-top: 5vh;
+}
+
+#F {
+    margin-bottom: 5vh;
+}
+
+.line-horizontal p{
+    color: #5A7E8C;
+    font-size: 4vh;
+    font-family: "Andika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+
+.line-horizontal h2{
+    color: #5A7E8C;
+    font-family: "Andika", sans-serif;
+    font-weight: 00;
+    font-style: normal;
+    font-size: 6vh;
+}
